@@ -2,7 +2,7 @@
   "version": "0.0.1",
   "description": "n/a",
   "scripts": {
-    "start": "ts-node src/index.js"
+    "start": "ts-node src/index.ts"
   },
   "author": "lrnzdms",
   "license": "",

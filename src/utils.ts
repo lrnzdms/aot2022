@@ -1,7 +1,7 @@
 const fs = require("fs");
 const lineReader = require("readline");
 
-export const GetLinesAsNumbers = (path:string) => new Promise((res, rej) => {
+export const GetLinesAsNumbers = (path:string) => new Promise<number[]>((res, rej) => {
   const reader = lineReader.createInterface({
       input: fs.createReadStream(path)
   });
